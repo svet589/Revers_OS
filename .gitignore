@@ -1,0 +1,38 @@
+# Данные пользователей
+data/users.json
+data/config.json
+data/history.db
+data/vfs/*
+data/notes/*
+data/vault/*
+data/exports/*
+data/macros/*
+data/wordlists/*
+data/playlists/*
+data/todo.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Виртуальное окружение
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.log
+*.tmp
