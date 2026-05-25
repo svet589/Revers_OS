@@ -7,8 +7,7 @@ import time
 import sys
 import threading
 from datetime import datetime
-from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET
-
+from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET, clear_screen
 alarm_triggered = False
 
 def alarm_worker(alarm_time):
