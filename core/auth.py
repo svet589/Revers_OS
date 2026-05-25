@@ -34,6 +34,10 @@ def ensure_data_dir():
     """Создать папку data если её нет"""
     os.makedirs(DATA_DIR, exist_ok=True)
 
+def init_users():
+    """Совместимость со старым кодом"""
+    ensure_data_dir()
+    
 def load_users():
     """Загрузить пользователей из файла"""
     ensure_data_dir()
