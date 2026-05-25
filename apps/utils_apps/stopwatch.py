@@ -4,8 +4,7 @@ REVERS OS v3.0 — Секундомер
 """
 
 import time
-from core.utils import C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET, clear_screen
-
+from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET, clear_screen
 def run_stopwatch(args):
     print(f"\n{C_WARNING}  ══════════════════════════════════════════{C_RESET}")
     print(f"{C_WARNING}         ⏱️ СЕКУНДОМЕР{C_RESET}")
