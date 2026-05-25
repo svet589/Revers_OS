@@ -6,7 +6,6 @@ REVERS OS v3.0 — Таймер обратного отсчёта
 import time
 import sys
 from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET, clear_screen
-
 def run_timer(args):
     print(f"\n{C_WARNING}  ══════════════════════════════════════════{C_RESET}")
     print(f"{C_WARNING}         ⏱️ ТАЙМЕР{C_RESET}")
