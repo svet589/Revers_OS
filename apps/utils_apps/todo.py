@@ -5,8 +5,7 @@ REVERS OS v3.0 — Список задач
 
 import os
 import json
-from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET
-
+from core.utils import C_ERROR, C_SUCCESS, C_WARNING, C_INFO, C_DIM, C_BRIGHT, C_RESET, clear_screen
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data")
 TODO_FILE = os.path.join(DATA_DIR, "todo.json")
 
